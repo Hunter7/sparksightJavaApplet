@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>HelloApplet</title>
+        <vendor>Hunter</vendor>
+        <homepage href=""/>
+        <description>HelloApplet</description>
+        <description kind="short">HelloApplet</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.6+"/>
+        <jar href="HelloApplet.jar" main="true"/>
+    <jar href="lib/plugin.jar"/>
+</resources>
+    <application-desc main-class="com.codeminders.hidapi.Utilities">
+    </application-desc>
+</jnlp>
